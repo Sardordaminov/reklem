@@ -1,10 +1,12 @@
 
+import Layout from './layout/layout';
+import { AppRoutes } from './AppRoutes';
 function App() {
 
   return (
-    <div>
-      <h1>Hello world !!</h1>
-    </div>
+    <Layout>
+      <AppRoutes />
+    </Layout>
   )
 }
 
